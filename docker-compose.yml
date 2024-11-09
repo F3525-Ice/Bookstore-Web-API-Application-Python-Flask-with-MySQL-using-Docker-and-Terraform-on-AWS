@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.8" #With the latest updates, there's no need to write this part anymore.
 
 services:
   database:

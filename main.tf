@@ -84,7 +84,7 @@ resource "aws_security_group" "tf-docker-sec-gr" {
 }
 
 resource "aws_instance" "tf-docker-ec2" {
-  ami = "ami-051f8a213df8bc089"
+  ami = "ami-0b72821e2f351e396"
   instance_type = "t2.micro"
   key_name = var.key-name
   vpc_security_group_ids = [aws_security_group.tf-docker-sec-gr.id]
